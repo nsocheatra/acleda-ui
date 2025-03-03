@@ -1,0 +1,86 @@
+body{
+    background-color:whitesmoke ;
+}
+
+
+
+.container{
+    max-width: 380px;
+    margin: auto;
+    padding: 20px 26px;
+    background-color: #193C6C;
+    border-radius: 10px;
+}
+
+/* Header informantion */
+.header-icon {
+    display: flex;
+    justify-content: space-between;
+    /* grid-template-columns: repeat(3,1fr); */
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 20px;
+}.logo{
+    width: 200px;
+}
+.khqr{
+    width: 30px;
+    border: 3px solid red;
+    border-radius: 2px;
+}
+.header-icon .icon{
+    color: white;
+    right: 100px;
+ 
+
+}
+
+
+/* grid all menu icon  */
+.grid-1{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    padding: 10px 0px;
+}
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 5px 0px;
+}
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px 0px;
+}
+
+.menu-item{
+    background: none;
+    padding: 10px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 3px 6px black;
+    transition: all 0.2s ease;
+    border: 2px solid skyblue;
+    cursor: pointer;
+}
+
+
+.menu-item .label{
+    color: white;
+    line-height: 1.3;
+}
+
+.menu-item .icon{
+    color: white;
+    line-height: 1.3;
+    font-size: 70px;
+}
+
+.menu-item .icon-1{
+    color: white;
+    line-height: 1.3;
+    font-size: 30px;
+}
