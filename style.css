@@ -1,5 +1,7 @@
 body{
     background-color:whitesmoke ;
+    color: white;
+    font-family: "Inter", "Koh Santepheap", sans-serif;
 }
 
 
@@ -16,38 +18,145 @@ body{
 .header-icon {
     display: flex;
     justify-content: space-between;
-    /* grid-template-columns: repeat(3,1fr); */
     align-items: center;
-    gap: 50px;
+    /* gap: 50px; */
     margin-bottom: 20px;
-}.logo{
+}
+.logo{
     width: 200px;
 }
 .khqr{
     width: 30px;
-    border: 3px solid red;
-    border-radius: 2px;
+    border: 4px solid rgb(218, 8, 8);
+    border-radius: 4px;
+    cursor: pointer;
 }
 .header-icon .icon{
     color: white;
-    right: 100px;
- 
-
+    margin-left: 90px;
+    cursor: pointer;
+}
+div
+.menu-profiles{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+}
+div.profile{
+    background-color: #1ea9ff;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+.profile-text1{
+    display: inline-block;
+    padding: 10px ;
+    line-height: 5px;
+    font-family: "Inter", "Koh Santepheap", sans-serif;;
 }
 
 
-/* grid all menu icon  */
-.grid-1{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 10px;
-    padding: 10px 0px;
+/* aiv Menu Account */
+.menu-acc{
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    padding: 10px ;
+    border-radius: 12px;
+    box-shadow: 0 1px 1px rgb(192, 208, 252);
+    transition: all 0.2s ease;
+    border: 2px solid skyblue;
 }
+
+.menu-left {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .progress-ring {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(-90deg);
+  }
+  .progress-ring-bg {
+    fill: none;
+    stroke-width: 10;
+  }
+  .progress-ring-progress {
+    fill: none;
+    stroke: #1ea9ff;
+    stroke-width: 10;
+    stroke-dasharray: 326 57;
+    stroke-dashoffset: 1480;
+    stroke-linecap: round;
+  }
+  .progress-ring-accent {
+    fill: none;
+    stroke: #c49a3b;
+    stroke-width: 10;
+    stroke-dasharray: 15 376.99;
+    stroke-dashoffset: -18;
+    stroke-linecap: round;
+  }
+.icon-acc{
+    color: white;
+    line-height: 1.3;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.menu-right .label{
+    display: block;
+    margin-top: 20px;
+    text-align: right;
+    margin-right: 10px;
+
+}
+.money {
+    text-align: right;
+    margin-right: 15px;
+}
+.riels{
+    color: gold;    
+    font-family: "Koh Santepheap";
+    font-size: 28px;
+    font-weight: bolder;
+}
+.dollar{
+    color: skyblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+p.blur{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: inter;
+}
+/*  */
+
 .grid-2{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
+    margin-top: 10px;
     padding: 5px 0px;
+    justify-content: space-between;
+    align-items: center;
 }
 .grid-3{
     display: grid;
@@ -61,8 +170,6 @@ body{
     padding: 10px;
     border-radius: 12px;
     text-align: center;
-    box-shadow: 0 3px 6px black;
-    transition: all 0.2s ease;
     border: 2px solid skyblue;
     cursor: pointer;
 }
@@ -76,11 +183,15 @@ body{
 .menu-item .icon{
     color: white;
     line-height: 1.3;
-    font-size: 70px;
+    font-size: 30px;
 }
 
 .menu-item .icon-1{
     color: white;
     line-height: 1.3;
     font-size: 30px;
+}
+
+.menu-item:hover{
+    box-shadow: 1px 1px skyblue ;
 }
